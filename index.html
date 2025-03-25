@@ -3,21 +3,30 @@
     <head>
         <meta chartset = "UTF-8">
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
         <title>Inbox</title>
     </head>
-    <body style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <body style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
         <header>
-        <h1>📦Inbox</h1>
+        <h1> Elementos Paragraph, Linebreak & Entities</h1>
         </header>
 
         <nav>
         </nav>
 
         <main>
-            <h3>Entidades(&) lessthan e greaterthan: (&lt;p&gt;)</h3>
-            <h3>Entidades &#x1F913; &#x1F596; &reg; &copy;</h3>
+            <h2>1. Parágrafos e Quebras de Linha</h2>
             <p>Isso é um parágrafo<br>isso é uma quebra de linha desse mesmo parágrafo</p>
-            <text>abaixo, no código, existe um comentário</text>
+            <text>*Elemento text*</text>
+            <h2>2. Entidades(&)</h3>
+                <ul>
+                <li><strong>Caracteres e Emojis reservados em HTML devem ser substituidos por entidades</strong></li>
+                <li type="circle"><strong>Há 2 formas principais de declarar entidades:</strong></li>
+                <ol>
+                    <li>Pelo nome, ex: <p>&entity_name;</p><p>&rarr; Entidades por nome: &lt;, &gt;, &reg;, &copy;;</p></li>
+                    <li>Pelo número, ex: <p>&#entity_number;</p><p>&rarr; Entidades por número: &#x1F913;, &#x1F596;;</p></li>
+                </ol>
+                </ul>
         </main>
 
         <footer>
