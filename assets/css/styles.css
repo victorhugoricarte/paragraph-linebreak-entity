@@ -1,4 +1,16 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(171, 215, 254);
     color: darkslategrey;
+    padding: 0 10px;
+}
+li {
+    padding: 10px;
+    font-size: large;
+}
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #eeeeee;
+    border-radius: 3px;
+    padding: 0 3px;
+    font-weight: bolder;
 }
