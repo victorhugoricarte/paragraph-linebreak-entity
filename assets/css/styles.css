@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(171, 215, 254);
+    background-color: rgba(200, 229, 255, 0.71);
     color: darkslategrey;
     padding: 0 10px;
 }
@@ -13,4 +13,9 @@ code {
     border-radius: 3px;
     padding: 0 3px;
     font-weight: bolder;
+}
+.title {
+    background: linear-gradient(to right, rgb(80, 120, 120), darkslategrey, darkslategrey, darkslategrey, darkslategrey);
+    background-clip: text;
+    color: transparent;
 }
